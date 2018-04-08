@@ -1,9 +1,11 @@
-package com.example.demo;
+package com.example.disc;
 
 
 import java.util.List;
 
 import org.springframework.stereotype.Component;
+
+import com.example.repository.CompactDisc;
 
 @Component
 public class BlankDisc implements CompactDisc
@@ -14,9 +16,9 @@ public class BlankDisc implements CompactDisc
     
   
     public void play() {
-        for(String track:tracks) {
-            System.out.println("-Track:"+track);
-        }
+      
+            System.out.println("blank disc play");
+        
     }
 
     public String getTitle()

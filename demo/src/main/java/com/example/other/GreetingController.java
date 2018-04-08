@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.example.demo.CompactDisc;
-import com.example.demo.MediaPlayer;
+import com.example.repository.CompactDisc;
+import com.example.repository.MediaPlayer;
 
 public class GreetingController
 {
